@@ -15,7 +15,7 @@ const menus = [
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="container shadow">
+    <div className="shadow">
       <nav className="py-8 sm: p-4 flex items-center justify-between bg-secondary">
         <div className="logo flex items-center gap-2">
           <img src="/logo.png" alt="" className="h-10 w-auto" />
