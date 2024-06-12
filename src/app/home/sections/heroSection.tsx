@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:py-0 py-10">
-      <div className="pt-8 flex flex-col items-center md:items-start place-content-center gap-8 order-2 md:order-1">
+    <div className="container grid grid-cols-1 md:grid-cols-2 gap-8 md:py-0 py-10 space-y-4">
+      <div className="flex flex-col items-center md:items-start place-content-center gap-8 order-2 md:order-1">
         <h2 className="text-5xl md:text-7xl md:text-start text-center font-extrabold text-purple-600">
           We are developers
         </h2>
